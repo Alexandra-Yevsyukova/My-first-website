@@ -1,0 +1,263 @@
+:root {
+    --my-blue: #10223F;
+    --my-light-gray-blue: #0F4459;
+    --my-light-blue: #A7D3D8;
+    --my-orange: #F37244;
+    --my-pink: #F1BDBC;
+}
+
+@font-face {
+    font-family: MONIQA-BOLDHEADING;
+    src: url("/MONIQA-BOLDHEADING.TTF") format('truetype');
+}
+
+
+/* .personal{
+    font-family:MONIQA-BOLDHEADING ;
+    margin: 0;
+    color: #ffffff;
+    /* border: 2px red solid; */
+    /* padding: 0;
+    margin-right: 10%; */
+/* } */ 
+body {
+    margin: 0;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+header{
+    /* background-color: #10223F; */
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    /* margin-top: 1%; */
+    font-family: 'Raleway', sans-serif;
+    ÷
+}
+a{
+    color: #F37244;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #F1BDBC;
+}
+
+h2 {
+    font-size: 27px;
+    margin: 0 20px 10px;
+    padding-top: 3%;
+}
+
+.text-edit{
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    font-family:MONIQA-BOLDHEADING ;
+    color: #10223F;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 60%;
+
+}
+.resume-container{
+    width: 700px;
+    height: 900px;
+    margin: auto;
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.left-side{
+    width: 45%;
+    height: 100%;
+}
+
+.about-me{
+    background-color: #F1BDBC;
+    width: 100%;
+    height: 35%;
+}
+
+.my-info{
+    font-size: 14px;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 110%;
+    font-family: 'Raleway', sans-serif;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.contact-item {
+    height: 15px;
+    margin-bottom: 6px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+}
+
+.contact-item img {
+    margin-right: 30px;
+}
+
+.image-container{
+    width: 100%;
+    height: 20%;
+}
+img{
+    object-fit: cover;
+}
+.education{
+    background-color:#EACCFF;
+    width: 100%;
+    height: 45%;
+}
+h4{
+    margin: 0 20px 5px;
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+.description{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3%;
+    font-size: 14px;
+}
+
+.italic{
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.right-side{
+
+    width: 55%;
+    height: 100%;
+}
+.experience{
+    background-color: #A7D3D8;
+    width: 100%;
+    height: 50%;
+}
+ul {
+padding: 0;
+}
+
+.description li {
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.name-container{
+    background-color: #ffffff;
+    width: 100%;
+    height: 15%;
+}
+.name{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    margin: 0 20px 10px;
+    padding-top: 3%;
+}
+.hobi-container{
+    background-color: #ffc1ab;
+    width: 100%;
+    height: 35%;
+}
+.progress-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.html{
+    width: 29%;
+    display: flex;
+    margin: 1%;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+.progress{
+    background-color: #F37244;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    margin-right: 2px;
+    margin-bottom: 10%;
+}
+h3{
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+}
+.transparent{
+    opacity: 0.4;
+}
+.css{
+    width: 29%;
+    display: flex;
+    margin: 1%;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.js{
+    width: 29%;
+    display: flex;
+    margin: 1%;
+    flex-wrap: wrap;
+    margin-top: 5%;
+}
+footer{
+    /* background-color: #10223F; */
+    width: 100%;
+    height: 10%;
+}
+footer p { 
+    color: #F37244;
+    display: flex;
+   justify-content: center;
+}
